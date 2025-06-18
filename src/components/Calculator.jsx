@@ -102,7 +102,7 @@ function Calculator() {
     }
   };
   return (
-    <main role="application">
+    <>
       <div className="calculator-container">
         <div>
           <div className="final-display" value={finalDisplay} tabIndex="0">
@@ -279,7 +279,7 @@ function Calculator() {
           </button>
         </div>
       </div>
-    </main>
+    </>
   );
 }
 
